@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SquareButton } from './square-buttton';
+import { SquareButton } from './square-button';
 
 const meta = {
   component: SquareButton,
