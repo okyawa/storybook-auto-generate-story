@@ -1,14 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  extends: [
-    'plugin:react/recommended',
-    'plugin:import/typescript',
-    'plugin:import/recommended',
-    'plugin:import/warnings',
-    'plugin:@typescript-eslint/recommended',
-    // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'prettier',
-  ],
+  extends: ['plugin:react/recommended', 'plugin:import/typescript', 'plugin:import/recommended', 'plugin:import/warnings', 'plugin:@typescript-eslint/recommended', 'prettier', 'plugin:storybook/recommended'],
   plugins: ['@typescript-eslint'],
   overrides: [
     {
